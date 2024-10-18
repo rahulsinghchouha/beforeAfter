@@ -2,37 +2,75 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.topLeft::before {
+  position: absolute;
+  content: '';
+  top: -40px;
+  left: 0;
+  height: 44px;
+  width: 90px;
+  background-color: rgb(14 116 144);
+
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.topRight::after {
+  position: absolute;
+  content: '';
+  top: -40px;
+  right: 0;
+  height: 44px;
+  width: 90px;
+  background-color: rgb(14 116 144);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.leftTriangle::before {
+  width: 25px;
+  content: '';
+  position: absolute;
+  top: -40px;
+  left: 90px;
+  background: transparent;
+  border-bottom: 0px solid transparent;
+  border-left: 40px solid rgb(7, 114, 143);
+  border-top: 40px solid transparent;
+
 }
 
-.App-link {
-  color: #61dafb;
+.rightTriangle::after {
+  width: 25px;
+  content: '';
+  position: absolute;
+  top: -40px;
+  right: 90px;
+  background: transparent;
+  border-bottom: 0px solid transparent;
+  border-right: 40px solid rgb(7, 114, 143);
+  border-top: 40px solid transparent;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.sss{
+  border-top-right-radius: 20px;
+}
+.sssTriangle::before{
+  width: 50px;
+  content: '';
+  position: absolute;
+  top: 77px;
+  left: 80px;
+  background: transparent;
+  border-bottom: 31px solid transparent;
+  border-left: 31px solid rgb(7, 114, 143);
+  border-top: 31px solid transparent;
+}
+.sssBox::after{
+  position: absolute;
+  content: '';
+  top: 137px;
+  right: 80px;
+  height: 12.5px;
+  width: 26px;
+  border-bottom-right-radius: 10px;
+  background-color:  rgb(202 138 4);
+  
 }
