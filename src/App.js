@@ -3,13 +3,41 @@ import './App.css';
 
 function App() {
   return (
-    <div className=" flex justify-center items-center h-screen w-[100%] relative bg-black">
+    <div className=" flex justify-center items-center h-screen w-[100%] relative bg-black gap-20">
 
+      <div className='absolute flex left-[700px]'>
+        <div className='h-[40px] w-[1px]  translate-y-[-50%]  bg-white'></div>
+        <div className='h-[1px] w-[720px]  z-50 border-[1px]  border-dashed border-white boX' ></div>
+ 
+      
+      </div>
+      
+
+      <div className='h-[200px] w-[200px] rounded-full bg-[#262F2C]  absolute left-[750px] shadow-sm'> </div>
+
+      <div className='h-[200px] w-[200px] rounded-full bg-[#365043]  absolute left-[860px] shadow-sm'> </div>
+
+       <div className='h-[200px] w-[200px] rounded-full bg-[#416559]  absolute left-[960px] shadow-sm'> </div>
+
+       <div className='h-[200px] w-[200px] rounded-full bg-[#588D77]  absolute left-[1060px] shadow-sm'> </div>
+
+       <div className='h-[200px] w-[200px] rounded-full bg-[#88F7CD]  absolute left-[1160px] shadow-sm'> </div>
+
+{/*  
+      <div className='h-[200px] w-[200px] rounded-full bg-green-500 opacity-30'> </div>
+
+      <div className='h-[200px] w-[200px] rounded-full bg-green-600 opacity-40'> </div>
+  */}
+
+
+
+
+{/* 
         <div className='h-[400px] w-[300px] border-2 rounded-md card-parent relative '>
         
          <div className='absolute top-0 right-0 left-0 bottom-0 bg-[#ffffffd8] card-child'></div>
 
-        </div>
+        </div> */}
 
        
        

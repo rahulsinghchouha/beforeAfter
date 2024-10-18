@@ -105,7 +105,7 @@
     background: url('https://propertycloud.in/blog/wp-content/uploads/2023/04/image-18-1024x576.png'); 
     animation: slowMotion 20s linear infinite;
     background-size: 237%;
-    filter: sepia(100%) hue-rotate(80deg);
+    filter: sepia(30%) hue-rotate(80deg);
 }
 
 @keyframes slowMotion {
@@ -155,6 +155,21 @@
     background-position: 100% 100%;
     background-size: 480%;
   }
+
+}
+
+.boX::after{
+  position: absolute;
+  content: '';
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  right: 0px ;
+  transform: translateY(-50%) rotate(-45deg);
+  border-bottom: 1px solid white;
+
+  border-right: 1px solid white;
+
 
 }
 
