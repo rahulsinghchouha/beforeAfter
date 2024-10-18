@@ -1,10 +1,22 @@
-import logo from './logo.svg';
+
 import './App.css';
 
 function App() {
   return (
-    <div className=" flex justify-center items-center h-screen w-[100%] relative ">
+    <div className=" flex justify-center items-center h-screen w-[100%] relative bg-black">
 
+        <div className='h-[400px] w-[300px] border-2 rounded-md card-parent relative '>
+        
+         <div className='absolute top-0 right-0 left-0 bottom-0 bg-[#ffffffd8] card-child'></div>
+
+        </div>
+
+       
+       
+
+      {/* Before and After */}
+
+{/* 
       <div className='min-h-[400px] min-w-[400px] topLeft topRight  bg-cyan-700 rounded-b-[90px] relative text-white font-[15px]'>
         <div className='leftTriangle '></div>
         <div className='rightTriangle'></div>
@@ -13,9 +25,11 @@ function App() {
         </div>
         <div className='ml-[90px] pt-10 h-[48px] w-[214px]  text-center leading-1 '>
           Anything is Possible with  CSS, it is powerful, versatile, and a comerstone of web development. Master CSS to  master the web development journey.
-        </div>
+        </div> 
+         </div>
+        */}
 
-      </div>
+     
     </div>
   );
 }

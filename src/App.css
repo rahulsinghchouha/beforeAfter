@@ -74,3 +74,88 @@
   background-color:  rgb(202 138 4);
   
 }
+
+.card-child{
+
+  background:linear-gradient(to bottom,  #ffffffa1 2px,  transparent 2px ,  transparent 13px);
+  background-size: 100% 15px;
+  animation: tv 20s  linear  infinite;
+
+ }
+ 
+@keyframes tv 
+{
+  0%{
+    background-position: 0% 0%;
+  }
+
+  50%{
+    background-position: 0% -50%;
+  }
+
+  100%{
+    background-position: 0% -100%;
+
+  }
+
+}
+
+.card-parent{
+
+    background: url('https://propertycloud.in/blog/wp-content/uploads/2023/04/image-18-1024x576.png'); 
+    animation: slowMotion 20s linear infinite;
+    background-size: 237%;
+}
+
+@keyframes slowMotion {
+  
+  0%{
+    background-position: 0% 0%;
+    background-size: 237%;
+  }
+  10%{
+
+      background-position: 10% 10%;
+      background-size: 330%;;
+  }
+  20%{
+    background-position:20% 20%;
+    background-size: 370%;
+  }
+  30%{
+    background-position: 30% 30%;
+    background-size: 420%;
+  }
+  40%{
+    background-position: 40% 40%;
+    background-size: 440%;
+  }
+  50%{
+    background-position: 50% 50%;
+    background-size: 480%;
+  }
+  60%{
+    background-position: 60% 60%;
+    background-size: 480%;
+  }
+  70%{
+    background-position: 70% 70%;
+    background-size: 440%;
+  }
+  80%{
+    background-position: 80% 80%;
+    background-size: 420%;
+  }
+  90%{
+    background-position: 90% 90%;
+    background-size: 370%;
+  }
+  100%{
+    background-position: 100% 100%;
+    background-size: 237%;
+  }
+
+}
+
+
+
